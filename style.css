@@ -1,0 +1,59 @@
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}
+.container {
+  border-radius: 1rem 1rem 0 0;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(148, 235, 198, 0.7)
+  );
+  box-shadow: 0 8px 6px -6px rgba(6, 14, 15, 0.4);
+}
+.dashboard > div {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  box-shadow: 0 12px 8px -8px rgba(2, 2, 2, 0.4);
+  padding: 1rem;
+  margin: 5px;
+  border-radius: 0.5rem;
+  text-align: center;
+  width: 77%;
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .dashboard > div {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.color-1,
+.color-2,
+.color-3 {
+  height: 58vh;
+  padding: 5rem;
+}
+.color-1 {
+  background: rgb(0, 80, 164);
+}
+.color-2 {
+  background: rgb(239, 65, 53);
+}
+.color-3 {
+  background: rgb(253, 218, 36);
+}
+.level,
+.timeSpent,
+.clickedNumber {
+  font-family: "Audiowide", cursive;
+}
+.give-up-btn,
+.jocker-btn {
+  margin-top: -30px !important;
+  visibility: hidden;
+}
