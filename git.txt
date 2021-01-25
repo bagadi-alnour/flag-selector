@@ -1,0 +1,5 @@
+* 449ca81 Mon, 25 Jan 2021 15:06:38 +0100 | put some maic 'logic' to make it work (HEAD -> main, origin/main, origin/dev-bagadi-alnour, dev-bagadi-alnour) [bagadi-alnour]
+* ebc9f1f Mon, 25 Jan 2021 15:02:29 +0100 | download jquery locally [bagadi-alnour]
+* 79df898 Mon, 25 Jan 2021 15:01:56 +0100 | create a function to randomize colors [bagadi-alnour]
+* 78af4a1 Mon, 25 Jan 2021 15:01:04 +0100 | colors.js to store colors [bagadi-alnour]
+* 4c870ca Mon, 25 Jan 2021 15:00:03 +0100 | style index.html [bagadi-alnour]
